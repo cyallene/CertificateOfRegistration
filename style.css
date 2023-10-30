@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+.center {
+    text-align: center;
+}
+
+.text-header {
+    text-align: center;
+    padding-right: 16rem;
+    line-height: 1rem;
+}
+
+.logo img  {
+    max-width: 220px;
+    
+}
+
+.logo {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.reg-num {
+    margin-bottom: 1rem;
+    margin-left: 13rem ;
+}
+.reg-num span {
+    color: rgb(161, 138, 204);
+    
+}
+
+main {
+    border: 4px solid black;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.stu-gen-info-header {
+    text-align: center;
+    background-color: rgb(161, 138, 204);
+    border-bottom: 4px solid black;
+}
+
+.SGI-column {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.course-header {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: rgb(161, 138, 204);
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unit div {
+    display: flex;
+    gap: 0.5rem;
+}
+.unit h2 {
+    letter-spacing: 4mm;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 30px;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+.table-container {
+    justify-content: spa;
+}
+
+.total-units {
+    font-weight: bolder;
+}
+
+.total-units div {
+    border-top: 3px solid black;
+    max-width: 40%;
+}
+
+.fees {
+    border: 2px solid black;
+    width:40%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 10%
+}
+
+.fees-header {
+    text-align: center;
+    background-color: rgb(161, 138, 204);
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.fees h2 {
+    letter-spacing: 2mm;
+}
+
+.fees-contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+}
+
+
+.assessment {
+    display:flex;
+    padding: 0.5rem 2rem 0.5rem 8rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    
+}
+
+.payment {
+    display:flex;
+    padding: 0.5rem 2rem 0.5rem 10rem;
+    justify-content: space-between;
+}
+
+.balance {
+    display:flex;
+    padding: 0.5rem 2rem 0.5rem 6rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+.sched-payment {
+    background-color: rgb(161, 138, 204);
+    text-align: center;
+
+}
+
+.payment-due {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.payment-due div {
+    padding: 0 0.5rem;
+}
+
+
+.bot-sec {
+    display:flex;
+}
+
+.refund  {
+    width: 40%;
+    height: 10%;
+    margin: 2rem auto;
+    justify-content: center;
+   
+}
+
+.refund p em  {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.8;
+}
+
+.refund h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1rem;
+
+}
+
+.receipt {
+    align-items: right;
+    display: flex;
+    margin-top: 5rem;
+    gap: 10rem;
+}
+.underline {
+    border-bottom: 2px solid black;
+    display: inline;
+    color: rgb(8, 8, 8);
+}
+
+.val-date {
+    align-items: right;
+    display: flex;
+    margin-top: 2rem;
+    gap: 6rem;
+}
+
+.approved {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.registrar {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.registrar h4 {
+    border-bottom: 2px solid black;
+    display: inline;
+    color: black;
+}
+
+.print-date {
+    margin-top: 15rem;
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    border-top: 4px solid black;
+    background-color:   rgb(161, 138, 204);
+}  
+.H4-signature{
+    background-image: url('signature.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
